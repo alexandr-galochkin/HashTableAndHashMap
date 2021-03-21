@@ -50,18 +50,18 @@ class MyHashMap<K, V> implements Map<K, V> {
     }
 
     public void clear() {
-
+        throw new UnsupportedOperationException();
     }
 
     public Set keySet() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     public Collection values() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     public Set<Entry<K, V>> entrySet() {
-        return null;
+        throw new UnsupportedOperationException();
     }
 }
